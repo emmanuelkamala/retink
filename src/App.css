@@ -4,3 +4,12 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+body {
+  background: var(--color-bg);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}

@@ -1,6 +1,6 @@
 import './App.css';
 import { Brand, Cta, Navbar } from './components';
-import { Contact, Footer, Header, Services } from './containers';
+import { About, Contact, Footer, Header, Services } from './containers';
  
 function App() {
   return (
