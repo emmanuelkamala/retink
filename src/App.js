@@ -5,8 +5,8 @@ import { About, Contact, Footer, Header, Services } from './containers';
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <div className="gradient__bg">
-        <Navbar />
         <Header />
       </div>
       <Brand />

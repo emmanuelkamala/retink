@@ -1,0 +1,92 @@
+.retink__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.33);
+  height: 74px;
+}
+
+.retink__navbar-logo {
+  margin-right: 2rem;
+}
+
+.retink__navbar-logo img {
+  width: 75%;
+}
+
+.retink__navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.retink__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.retink__navbar-container p, 
+.retink__navbar-sign p,
+.retink__navbar-menu_container p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: top;
+  margin: 0 2rem;
+  color: var(--color-header);
+
+  cursor: pointer;
+}
+
+.retink__navbar-sign button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 43px;
+  width: 102.6498794555664px;
+  border-radius: 4px;
+  background: #3D55DF;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 14px rgba(50, 50, 93, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.retink__navbar-sign button p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.3px;
+  color: #FFFFFF;
+}
+
+.retink__navbar-sign_round {
+  position: absolute;
+  left: 8.33%;
+  right: 70%;
+  top: 47.33%;
+  bottom: 10%;
+}
+
+.retink__navbar-sign_arrow {
+  position: absolute;
+  left: 12.33%;
+  right: 70%;
+  top: 33.33%;
+  bottom: 10%;
+}
