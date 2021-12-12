@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className="retink__navbar">
       <div className="retink__navbar-logo">
-        <img src={logo} alt="logo" />
+        <a href="/"><img src={logo} alt="logo" /></a>
       </div>
   
       <div className="retink__navbar-container">

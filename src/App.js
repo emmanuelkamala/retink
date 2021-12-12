@@ -1,6 +1,6 @@
 import './App.css';
-import { Brand, Cta, Navbar } from './components';
-import { About, Contact, Footer, Header, Services } from './containers';
+import { Navbar } from './components';
+import { Header } from './containers';
  
 function App() {
   return (
@@ -9,12 +9,6 @@ function App() {
       <div className="gradient__bg">
         <Header />
       </div>
-      <Brand />
-      <About />
-      <Services />
-      <Cta />
-      <Contact />
-      <Footer />
     </div>
   );
 }

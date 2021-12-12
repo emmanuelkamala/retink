@@ -1,10 +1,6 @@
-/* .retink__header {
-  display: flex;
-  flex-direction: row;
-}  */
 
 .retink__header-content {
-  position: absolute;
+  position: relative;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -101,6 +97,7 @@
   position: absolute;
   left: 530px;
   top: 168px;
+  z-index: 2;
 }
 
 .retink__header-content_card1 {
@@ -277,16 +274,11 @@
 
 @media screen and (max-width: 1050px) {
   .retink__header {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
-  /* .retink__header-content__imgBlock {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
 
   .retink__header-content {
     margin: 0 0 3rem;
