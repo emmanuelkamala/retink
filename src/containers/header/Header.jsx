@@ -41,11 +41,11 @@ const Header = () => {
         </div>
       </div>
 
-      <div>
+      <div className="retink__header-content__imgBlock">
         <div className="retink__header-content__character">
           <img src={ikbar} alt="ikbar" />
         </div>
-        
+
         <div className="retink__header-content_card1">
           <p>
             Hi there! Need help in creating a Marketing plan for your business? I can help you to create one using Retink AI engine.
